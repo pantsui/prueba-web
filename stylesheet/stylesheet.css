@@ -1,0 +1,52 @@
+body {background:url(../Pictures/FD.jpg) ;font-family: 'Roboto', sans-serif;
+}
+.texto{background:#F5E8E5;}
+.CACE {color:white;background:#2849AE; margin:auto;}
+.logocace {width="60"; height="44";}
+a {color:BLACK;}
+p a {color:white;}
+.colegio {color:white; font-size:15px;display: flex;
+   justify-content: center;
+   align-items: center;}
+p {font-size:20px;color:black}
+#enviar {color: blue}
+#logogrande {width:450;height:350 }
+h2 {color:#FF5602}
+#header {
+	margin:auto;
+	width:100%;
+	font-family:arial,helvetica,sans-serif;
+}
+ul, ol {
+	list-style:none;
+}
+.nav li a  {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	display:block;
+}
+.nav > li {
+	display:table-cell;
+
+}
+.nav li a:hover {
+	background-color:#434343;
+}
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+
+}
+.nav li:hover > ul {
+  display:block;
+}
+.nav li ul li {
+  position: relative;
+}
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+  }
